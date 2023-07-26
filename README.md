@@ -6,7 +6,7 @@ Ce projet vise à présenter un exemple de classification multiclasse en utilisa
 Notre objectif est de créer un classificateur multiclasse capable de prédire des étiquettes pour plusieurs catégories différentes. Nous utiliserons l'algorithme Perceptron Multiclasse de scikit-learn pour accomplir cette tâche.
 
 ### Prérequis
-Avant de commencer, assurez-vous d'avoir les bibliothèques suivantes installées :
+Nous utiliserons les bibliothèques suivantes pour les deux scriptes :
 
 Python 3.x      
 scikit-learn    
@@ -17,11 +17,11 @@ os
 
 ### Structure des fichiers
 
-├── data=Segmentation.xlsx
-├── deploiementr.py
-├── modelisation.py
-├── pipeline.sav
-└── README.md
+├── data=Segmentation.xlsx     
+├── deploiementr.py     
+├── modelisation.py      
+├── pipeline.sav     
+└── README.md       
 
 Le dossier "data" contient le fichier d'entraînement et de test au format excel.  
 modelisation.py est le script Python pour entraîner le modèle et effectuer la recherche sur la grille des hyper-paramètres.       
