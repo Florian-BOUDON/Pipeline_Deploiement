@@ -8,10 +8,12 @@ Notre objectif est de créer un classificateur multiclasse capable de prédire d
 ### Prérequis
 Avant de commencer, assurez-vous d'avoir les bibliothèques suivantes installées :
 
-Python 3.x
-scikit-learn
-numpy
-pandas
+Python 3.x      
+scikit-learn    
+numpy     
+pandas      
+pickle
+os
 
 ### Structure des fichiers
 
